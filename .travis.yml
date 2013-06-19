@@ -5,5 +5,5 @@ before_script:
   - gem env
   - rvm @global do gem list
   - which -a bundle
-  - find $GEM_HOME@global
+  - find $GEM_HOME $GEM_HOME@global
 script: true
