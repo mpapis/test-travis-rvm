@@ -4,4 +4,5 @@ before_script:
   - echo $PATH
   - gem env
   - gem list
+  - find $GEM_HOME
 script: true
