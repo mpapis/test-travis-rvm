@@ -1,0 +1,7 @@
+ruby:
+  - ruby-head
+before_script:
+  - echo $PATH
+  - gem env
+  - gem list
+script: true
