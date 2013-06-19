@@ -3,6 +3,7 @@ rvm:
 before_script:
   - echo $PATH
   - gem env
-  - gem list
-  - find $GEM_HOME
+  - rvm @goabl do gem list
+  - which -a bundle
+  - find $GEM_HOME@global
 script: true
