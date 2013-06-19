@@ -1,4 +1,4 @@
-ruby:
+rvm:
   - ruby-head
 before_script:
   - echo $PATH
